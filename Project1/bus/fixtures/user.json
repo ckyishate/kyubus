@@ -1,0 +1,18 @@
+[
+{
+    "model": "bus.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$upYh9AizBDomlIORRtmnvz$iX/u4j8Smivv6goLpxvzYlQRXROLmiXESz2Yjd13/sg=",
+        "last_login": "2022-01-09T09:11:38.423Z",
+        "email": "admin@gmail.com",
+        "is_active": true,
+        "staff": true,
+        "admin": true,
+        "first_Name": "",
+        "last_Name": "",
+        "sex": "",
+        "contact": ""
+    }
+}
+]

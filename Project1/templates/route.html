@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+<title>{% block title %} Routes {% endblock %}</title>
+
+
+{% block content %}
+
+
+
+
+
+
+
+
+  
+
+    <div class="container " style="margin:80px;">
+        <div class="filter">
+            <form method = "get">
+    
+                {{myFilter.form}}
+    
+                <button  class ="btn btn-secondary"type ="submit">Search</button>
+            </form>
+        </div>
+        
+        
+        <div class="route-wrapper">
+            {%for route in results %}
+            <div class="route-item-wrapper ">
+                <h2 class="card-title">{{route}}</h2>
+                <h3>Depart Time:{{route.departure}}</h3>
+                <h3>${{route.fare}}</h3> 
+                <a class="card-link" href="{% url 'book' id=route.id %}">book</a>
+            </div>
+            {% endfor %}
+        </div>
+        
+        
+    </div>    
+
+
+    
+
+  
+
+  <!-- ======= Footer ======= -->
+  
+
+
+
+
+
+
+{% endblock %}

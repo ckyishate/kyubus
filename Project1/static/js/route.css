@@ -1,0 +1,30 @@
+.containerRoute {
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 100%;
+    text-align:center;
+}
+.route-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.route-item-wrapper{
+    margin:16px;
+    border-radius:12px;
+    background-color:aliceblue;
+    padding:2rem;
+}
+.route-item-wrapper h2, 
+.route-item-wrapper h3{
+    padding:6px;
+    color:green;
+}
+.route-item-wrapper p{
+    padding:0.8rem;
+}
+.containerRoute .fiter{
+    margin: 2em;
+    padding:2px;
+    background-color: greenyellow;
+}

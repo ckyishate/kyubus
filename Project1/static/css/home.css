@@ -1,0 +1,66 @@
+body{
+    background:green;
+}
+
+.containerhome{
+    display:flex;
+}
+button{
+    color:darkblue;
+    background:green;
+    border-radius:13px;
+    width:70px;
+}
+button a{
+    color:#f45677;
+    text-decoration:none;
+    font-size:11px;
+    font-weight:bold;
+}
+button a:hover{
+    cursor:pointer;
+}
+.date-model{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.1);
+    position:absolute;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    display:none;
+
+
+}
+.model-content{
+    width:60%;
+    height:50%;
+    background-color:white;
+    border-radius:18px;
+    padding:20px;
+    text-align:center;
+    position:relative;
+}
+.close{
+    position:absolute;
+    top:0;
+    right:14px;
+    font-size:45px;
+    transform:rotate(45deg);
+    cursor:pointer;
+}
+
+.model-content .date-form{
+    height:4000px auto;
+}
+.model-content input{
+    height: 40px;
+    width:60%;
+    outline-color:none;
+    margin:12px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    padding-left:15px;
+    font-size:12px;
+}
